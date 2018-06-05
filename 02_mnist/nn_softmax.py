@@ -13,7 +13,7 @@ from tensorflow.python.data import Dataset
 tf.logging.set_verbosity(tf.logging.ERROR)
 
 mnist_dataframe = pd.read_csv(
-    io.open("mnist_train_small.csv", "r")，
+    io.open("../datasets/mnist_train_small.csv", "r")，
     sep=',',
     header=None
 )
